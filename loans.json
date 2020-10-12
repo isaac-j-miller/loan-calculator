@@ -1,112 +1,107 @@
-{   
+{
     "start_date":"2020-11-01",
     "max_monthly_payment":2000.0,
+    "beginning_lump_sum": 5000.0,
     "loans":
     [
     {
         "holder":"Emily",
-        "provider":"Wells Fargo",
-        "owed":6257.0,
-        "interest":0.1174,
-        "ID":0
+        "provider":"SoFi",
+        "owed":16211.0,
+        "interest":0.04083,
+        "term":60,
+        "start":"2020-11-16",
+        "ID":"0"
     },
     {
         "holder":"Emily",
-        "provider":"Wells Fargo",
-        "owed":5765.0,
-        "interest":0.1174,
-        "ID":1
-    },
-    {
-        "holder":"Emily",
-        "provider":"Wells Fargo",
-        "owed":9523.0,
-        "interest":0.1214,
-        "ID":2
-    },
-    {
-        "holder":"Emily",
-        "provider":"Wells Fargo",
-        "owed":1079.97,
-        "interest":0.1049,
-        "ID":3
+        "provider":"Mohela",
+        "owed":21139.17,
+        "interest":0.0505,
+        "term":120,
+        "start":"2020-11-16",
+        "ID":"7455844848"
     },
     {
         "holder":"Emily",
         "provider":"ECSI",
         "owed":2900.0,
+        "term":87,
         "interest":0.05,
-        "ID":4
-    },
-    {
-        "holder":"Emily",
-        "provider":"Wells Fargo",
-        "owed":21139.0,
-        "interest":0.05,
-        "ID":5
+        "start":"2021-03-15",
+        "ID":"905979655"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":18122.14,
         "interest":0.0175,
-        "ID":6
+        "ID":"1062"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":8002.12,
         "interest":0.02,
-        "ID":7
+        "ID":"8994"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":7430.84,
         "interest":0.05,
-        "ID":8
+        "ID":"1692"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":7921.61,
         "interest":0.055,
-        "ID":9
+        "ID":"3507"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":6618.58,
         "interest":0.0675,
-        "ID":10
+        "ID":"4527"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":6210.54,
         "interest":0.02,
-        "ID":11
+        "ID":"3229"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":4652.41,
         "interest":0.02,
-        "ID":12
+        "ID":"9109"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":1854.88,
         "interest":0.0175,
-        "ID":13
+        "ID":"3439"
     },
     {
         "holder":"Isaac",
         "provider":"Sallie Mae",
+        "start":"2020-12-11",
         "owed":579.71,
         "interest":0.025,
-        "ID":14
+        "ID":"9985"
     }
 ]
 }
