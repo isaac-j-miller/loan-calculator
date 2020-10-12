@@ -1,0 +1,5 @@
+*.tab
+isaac_and_emily.py
+loans-v2.json
+.vscode
+*.~lock*
