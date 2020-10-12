@@ -1,12 +1,14 @@
 import datetime as dt
 
 class Loan:
-    def __init__(self, owed, interest, ID, start, provider, **kwargs):
+    def __init__(self, owed, interest, ID, provider, start=None, **kwargs):
         self.owed = owed
         self.annualInterest = interest
         self.monthlyInterest = interest / 12
         self.id = ID
         self.term = 144
+        if start is None:
+            start = "0000-01-01"
         self.start = dt.date.fromisoformat(start)
         self.provider = provider
         for k,v in kwargs.items():

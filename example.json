@@ -1,0 +1,67 @@
+{
+    "$schema": "./loans.schema.json",
+    "start_date":"2020-11-01",
+    "max_monthly_payment":1000.0,
+    "beginning_lump_sum": 500.0,
+    "loans":
+    [
+    
+    {
+        "holder":"Jim",
+        "provider":"ECSI",
+        "owed":2900.0,
+        "term":87,
+        "interest":0.05,
+        "start":"2021-03-15",
+        "ID":"34252"
+    },
+    {
+        "holder":"Joe",
+        "provider":"Sallie Mae",
+        "start":"2020-12-11",
+        "owed":18122.14,
+        "interest":0.0175,
+        "ID":"105662"
+    },
+    {
+        "holder":"Joe",
+        "provider":"Sallie Mae",
+        "start":"2020-12-11",
+        "owed":6618.58,
+        "interest":0.0675,
+        "ID":"452767"
+    },
+    {
+        "holder":"Joe",
+        "provider":"Sallie Mae",
+        "start":"2020-12-11",
+        "owed":6210.54,
+        "interest":0.02,
+        "ID":"326298"
+    },
+    {
+        "holder":"Joe",
+        "provider":"Sallie Mae",
+        "start":"2020-12-11",
+        "owed":4652.41,
+        "interest":0.02,
+        "ID":"921049"
+    },
+    {
+        "holder":"Jim",
+        "provider":"Sallie Mae",
+        "start":"2020-12-11",
+        "owed":1854.88,
+        "interest":0.0175,
+        "ID":"344439"
+    },
+    {
+        "holder":"Jim",
+        "provider":"Sallie Mae",
+        "start":"2020-12-11",
+        "owed":579.71,
+        "interest":0.025,
+        "ID":"993285"
+    }
+]
+}

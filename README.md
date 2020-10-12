@@ -1,0 +1,5 @@
+# About this project
+I wrote this project to try to help optimize my partner and I's student loan payments because each of us have several smaller student loans. Some of the loans have very low interest so we would not want to consolidate all of them. This project uses a greedy algorithm to create a loan payback schedule which minimizes the amount of interest paid, given a fixed maximum monthly loan payment. The idea is to make minimum payments on all loans and use the rest of the allocated money to pay extra towards the highest interest loans. The
+
+# Getting started
+The only dependency of this project is `datetime`, which can be installed using `pip install datetime`. An example project is included. See example.py and example.json for details. To run the example project, run `python example.py`.

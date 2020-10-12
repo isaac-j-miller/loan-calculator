@@ -1,0 +1,60 @@
+{
+    "$id": "https://example.com/geographical-location.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "start_date": {
+        "type":"string",
+        "description":"Start date for the simulation",
+        "format":"date"
+    },
+    "max_monthly_payment": {
+        "type": "number",
+        "description":"Maximum monthly amount to pay towards loans"
+    },
+    "beginning_lump_sum": {
+        "type": "number",
+        "description":"Lump sum payment to make at beginning of simulation period"
+    },
+    "definitions": {
+        "loan": {
+            "type": "object",
+            "required": ["owed","interest","ID","start","provider"],
+            "properties":{
+                "holder":{
+                    "type": "string",
+                    "description": "Name of the loan holder"
+                },
+                "provider":{
+                    "type": "string",
+                    "description": "Name of the loan provider"
+                },
+                "owed": {
+                    "type": "number",
+                    "description": "Total amount owed (principal + interest)"
+                },
+                "interest": {
+                    "type": "number",
+                    "description": "the annual interest in decimal form"
+                },
+                "term":{
+                    "type": "number",
+                    "description": "Loan term in months"
+                },
+                "start":{
+                    "type":"string",
+                    "description":"End of grace period for the loan",
+                    "format":"date"
+                },
+                "ID":{
+                    "type": "string",
+                    "description": "An identifier for the loan (e.g. the loan number on your account)"
+                }
+            }
+        }
+    },
+    "loans":{
+        "type": "array",
+        "items":{
+            "$ref":"#/definitions/loan"
+        }
+    }
+}

@@ -2,7 +2,7 @@ from .timeline import Timeline
 from .loan import Loan
 
 class Payer:
-    def __init__(self, start_date, max_monthly_payment, loans, beginning_lump_sum=0.0):
+    def __init__(self, start_date, max_monthly_payment, loans, beginning_lump_sum=0.0, **kwargs):
         self.maxPayment = max_monthly_payment
         self.activeLoans = {elem['ID']: Loan(**elem) for elem in loans}
         self.totalBalance = self.getTotalBalance()
